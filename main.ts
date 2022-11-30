@@ -1,6 +1,6 @@
 let tool = 0
 input.onGesture(Gesture.Shake, function () {
-    tool = randint(0, 10)
+    tool = randint(0, 2)
     if (tool == 0) {
         basic.showIcon(IconNames.Heart)
     } else if (tool == 1) {
